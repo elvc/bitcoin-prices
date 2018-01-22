@@ -1,0 +1,27 @@
+{
+  "name": "bitcoin-prices",
+  "version": "1.0.0",
+  "description": "Bitcoin Prices",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elvc/bitcoin-prices.git"
+  },
+  "keywords": ["bitcoin", "price", "report", "dashboard"],
+  "author": "Elvis Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elvc/bitcoin-prices/issues"
+  },
+  "homepage": "https://github.com/elvc/bitcoin-prices#readme",
+  "dependencies": {
+    "next": "^4.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
