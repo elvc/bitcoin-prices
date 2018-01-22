@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Navbar from './Navbar';
 
 const Layout = props => (
-  <div>
+  <React.Fragment>
     <Head>
       <title>Bitcoin Price</title>
       <link
@@ -12,7 +12,7 @@ const Layout = props => (
     </Head>
     <Navbar />
     <div className="container">{props.children}</div>
-  </div>
+  </React.Fragment>
 );
 
 export default Layout;

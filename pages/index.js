@@ -4,10 +4,10 @@ import Prices from '../components/Prices';
 
 const Index = props => (
   <Layout>
-    <div>
+    <React.Fragment>
       <h1>Welcome to Bitcoin Prices</h1>
       <Prices bpi={props.bpi} />
-    </div>
+    </React.Fragment>
   </Layout>
 );
 
@@ -15,11 +15,11 @@ Index.getInitialProps = async () => {
   const result = await fetch(
     'https://api.coindesk.com/v1/bpi/currentprice.json',
   );
-
   const data = await result.json();
 
   return {
     bpi: data.bpi,
   };
 };
+
 export default Index;

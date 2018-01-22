@@ -5,11 +5,15 @@ class Prices extends React.Component {
 
   getPrice = () => {
     const { currency } = this.state;
+    const { bpi } = this.props;
+
     return (
       <li className="list-group-item">
-        Bitcoin rate for {this.props.bpi[currency].description}:
-        <span class="badge badge-primary">{this.props.bpi[currency].code}</span>
-        <strong>{this.props.bpi[currency].rate}</strong>
+        Bitcoin rate for {bpi[currency].description}:
+        <div>
+          <span class="badge badge-primary">{bpi[currency].code}</span>
+          <strong>{bpi[currency].rate}</strong>
+        </div>
       </li>
     );
   };

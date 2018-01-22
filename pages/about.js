@@ -6,6 +6,7 @@ const About = () => (
     <div>
       <h1>About Bitcoin Prices</h1>
       <p>Application to view bitcoin prices, using React and Next.js</p>
+      <p>Data from CoinDesk Bitcoin Price Index API</p>
     </div>
   </Layout>
 );
