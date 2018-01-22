@@ -6,4 +6,4 @@
 
 Open `localhost:3000`
 
-![Screenshot](/Screen Shot.png)]( "Screenshot")
+![Screenshot](/bitcoin-prices/Screen Shot.png)]( "Screenshot")
