@@ -12,7 +12,12 @@
     "type": "git",
     "url": "git+https://github.com/elvc/bitcoin-prices.git"
   },
-  "keywords": ["bitcoin", "price", "report", "dashboard"],
+  "keywords": [
+    "bitcoin",
+    "price",
+    "report",
+    "dashboard"
+  ],
   "author": "Elvis Chan",
   "license": "ISC",
   "bugs": {
@@ -20,6 +25,7 @@
   },
   "homepage": "https://github.com/elvc/bitcoin-prices#readme",
   "dependencies": {
+    "isomorphic-unfetch": "^2.0.0",
     "next": "^4.2.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
